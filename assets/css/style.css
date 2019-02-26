@@ -1,0 +1,54 @@
+ body{
+    min-width: 1600px;
+    min-height: 900px;
+    background-image: url('../images/background-Avengers Infinity War 1920 1080 Wallpapers - Full HD Backgrounds 1_new.png');
+    background-size: 100%;
+}
+.header{
+    position:relative;
+}
+.main {
+    height: 600px;
+    width: 800px;
+    border: white dotted 10px;
+    color: black;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+    font-size: 30px;
+    top:50px;
+}
+h1{ 
+    font-family: arial;
+    font-size: 10vw;
+    background: linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2{
+    font-size:5vw;
+    color: crimson;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;    position:absolute;
+    bottom:1vh;
+    left:30vw;
+    transform: rotateZ(-20deg) rotateY(30deg);
+    font-family: fantasy;   
+}
+img{
+    max-width: 500px;
+    max-height: 350px;
+    position: relative;
+    padding-right: 100px;
+}
+#hero{
+    color: black;
+    position:absolute;
+    bottom:20px;    
+    font-size: 6vh;
+    transition: .6s;
+    width:fit-content;
+    display:inline-block;
+}
+#images{
+    height: 450px;
+    width: 400px;
+    bottom: 20px;
+}
