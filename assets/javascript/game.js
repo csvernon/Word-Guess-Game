@@ -2,7 +2,7 @@ var heros = {
     'HULK':'assets/images/hulk.jpeg',
     'THOR':'assets/images/thor.png',
     'THANOS':'assets/images/thanos.jpg',
-    'GAMORA':'assets/images/gamora.jpg',
+    'GAMORA':'https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/6/61/Gamora_AIW_Profile.jpg/revision/latest/scale-to-width-down/2000?cb=20180518212221',
     'IRONMAN':'assets/images/ironman.jpg',
     'STARLORD':'assets/images/starlord.png',
     'SPIDERMAN':'assets/images/spiderman.jpg',
