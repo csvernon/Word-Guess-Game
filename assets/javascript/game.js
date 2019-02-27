@@ -2,7 +2,7 @@ var heros = {
     'HULK':'assets/images/hulk.jpeg',
     'THOR':'assets/images/thor.png',
     'THANOS':'assets/images/thanos.jpg',
-    'GAMORA':'assets/images/thanos.jpg',
+    'GAMORA':'assets/images/gamora.jpg',
     'IRONMAN':'assets/images/ironman.jpg',
     'STARLORD':'assets/images/starlord.png',
     'SPIDERMAN':'assets/images/spiderman.jpg',
