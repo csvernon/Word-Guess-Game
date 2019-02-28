@@ -100,11 +100,9 @@ document.querySelector('img');
     }
     function winning(){
         if (wins === 10){
-        alert("Congratulations! You have beated Marvel Hangman! Page will refresh in 5 seconds")
+        alert("Congratulations! You have beaten Marvel Hangman! Page will refresh in 5 seconds")
         setTimeout(function (){
-
-            location.reload()
-          
+            location.reload()          
           }, 5000);
         }
     }
