@@ -24,7 +24,16 @@ var audio = document.querySelector('audio');
 var winsDiv = document.querySelector('.wins');
 document.querySelector('img');
 
-    function playGame(event){
+
+    function restart(){
+        heroBank = [];
+        count = 0;
+        wins = 0;
+        loses = 0;
+        winsDiv.innerHTML = "Wins: " + wins;
+        reset();
+    }
+    function start(event){
         var input = event.key.toUpperCase();
         if  (input.match(/[A-Z]{1,1}/) && input.length<2){
             if(currentHero.indexOf(input)==-1){
@@ -74,7 +83,7 @@ document.querySelector('img');
         };
     };
     function reset(){
-        guessedLetters=[]
+        guessedLetters=[];
         document.querySelector('.letters').innerHTML= "Letters Already Guessed: " + guessedLetters;
         guesses = 12;
         document.querySelector('.guesses').innerHTML= "Guesses Left: " + guesses;
@@ -95,17 +104,14 @@ document.querySelector('img');
         var games = wins + loses;
         if (games === 10 && wins != 10){
         alert("You gave it your all, better luck next time.")
-        location.reload()
+        restart();
         }
     }
     function winning(){
         if (wins === 10){
-        alert("Congratulations! You have beaten Marvel Hangman! Page will refresh in 5 seconds")
-        setTimeout(function (){
-            location.reload()          
-          }, 5000);
-        }
-    }
+        alert("Congratulations! You have beaten Marvel Hangman!")
+        restart();
+    }}
 reset()
 
-document.addEventListener('keyup', playGame);
+document.addEventListener('keyup', start);
