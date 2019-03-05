@@ -18,13 +18,13 @@
 }
 h1{ 
     font-family: arial;
-    font-size: 10vw;
+    font-size: 180px;
     background: linear-gradient(red, yellow);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 h2{
-    font-size:5vw;
+    font-size:100px;
     color: crimson;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;    position:absolute;
     bottom:1vh;
@@ -42,8 +42,7 @@ img{
     color: black;
     position:absolute;
     bottom:20px;    
-    font-size: 6vh;
-    transition: .6s;
+    font-size: 50px;
     width:fit-content;
     display:inline-block;
 }
